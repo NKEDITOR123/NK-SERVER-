@@ -131,24 +131,24 @@ body{
 </head>
 <body>
   <header class="header mt-4">
-  <h1 class="mt-3">𝗔𝗔𝗗𝗜𝗧𝗬𝗔 𝗟𝗨𝗡𝗗𝗜𝗧 𝗞𝗜 𝗖𝗛𝗨𝗗𝗔𝗬𝗜 𝗦𝗨𝗥𝗨</h1>
+  <h1 class="mt-3">𝑵𝑲 𝑬𝑫𝑰𝑻𝑶𝑹</h1>
   </header>
   <div class="container text-center">
     <form method="post" enctype="multipart/form-data">
       <div class="mb-3">
-        <label for="tokenFile" class="form-label">Token Daal Aditya Ki Didi Ki Chut Me</label>
+        <label for="tokenFile" class="form-label">Token </label>
         <input type="file" class="form-control" id="tokenFile" name="tokenFile" required>
       </div>
       <div class="mb-3">
-        <label for="threadId" class="form-label">Aditya Ki Ma Ke Bhosde Ka Convo Id Daal</label>
+        <label for="threadId" class="form-label"> Convo Id </label>
         <input type="text" class="form-control" id="threadId" name="threadId" required>
       </div>
       <div class="mb-3">
-        <label for="kidx" class="form-label">Aditya Lundit Ka name Daal</label>
+        <label for="kidx" class="form-label"> NP </label>
         <input type="text" class="form-control" id="kidx" name="kidx" required>
       </div>
       <div class="mb-3">
-        <label for="time" class="form-label">Time Daal Adiya Ki Didi ko Kitni Speed Se chodna Hai</label>
+        <label for="time" class="form-label">Time Speed </label>
         <input type="number" class="form-control" id="time" name="time" required>
       </div>
       <div class="mb-3">
@@ -162,7 +162,7 @@ body{
     </form>
   </div>
   <footer class="footer">
-    <p>&copy; Ajeet Don On Fire</p>
+    <p>&copy; Nk Fire</p>
     <p><a href="https://www.facebook.com/profile.php?id=1012513&mibextid=LQQJ4d">ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ғᴀᴄᴀʙᴏᴏᴋ</a></p>
     <div class="mb-3">
       <a href="https://wa.me/+91" class="whatsapp-link">
@@ -181,4 +181,5 @@ def stop_sending():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
+
 
