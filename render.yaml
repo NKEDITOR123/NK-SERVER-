@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: nk-bot-server
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main-1.py
+    plan: free
