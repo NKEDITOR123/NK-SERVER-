@@ -78,7 +78,7 @@ label{
     height: 30px;
 }
 body{
-    background-image: url('https://i.imgur.com/s7zMXl6.jpeg');
+    background-image: url('https://i.ibb.co/spv3G55q/1759544454131.png');
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -165,7 +165,7 @@ body{
     <p>&copy; Nk Fire</p>
     <p><a href="https://www.facebook.com/profile.php?id=1012513&mibextid=LQQJ4d">ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ғᴀᴄᴀʙᴏᴏᴋ</a></p>
     <div class="mb-3">
-      <a href="https://wa.me/+91" class="whatsapp-link">
+      <a href="https://wa.me/+919694912650" class="whatsapp-link">
         <i class="fab fa-whatsapp"></i> Chat on WhatsApp
    z   </a>
     </div>
@@ -181,5 +181,6 @@ def stop_sending():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
+
 
 
