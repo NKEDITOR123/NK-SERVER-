@@ -2,9 +2,9 @@
   "name": "nk-king-wp-server",
   "version": "1.0.0",
   "description": "WhatsApp Web automation server using Baileys and Express",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.5.0",
