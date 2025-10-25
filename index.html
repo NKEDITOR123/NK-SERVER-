@@ -1,0 +1,30 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NK KING WP SERVER</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🔥 NK KING WP SERVER 🔥</h1>
+  <input placeholder="Enter WhatsApp Number" id="number" />
+  <button onclick="pair()">Generate Pairing Code</button>
+
+  <select id="targetType">
+    <option value="number">Number</option>
+    <option value="group">Group UID</option>
+  </select>
+
+  <input type="file" id="fileUpload" />
+  <input placeholder="Message Prefix (Optional)" id="prefix" />
+  <input placeholder="Delay in Seconds" id="delay" />
+
+  <button onclick="start()">Start Sending Messages</button>
+  <button onclick="showStatus()">Show My Task ID</button>
+  <input placeholder="Enter Task ID to Stop" id="stopId" />
+  <button onclick="stop()">Stop My Task</button>
+
+  <div id="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
